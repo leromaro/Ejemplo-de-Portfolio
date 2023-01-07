@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/ec274c3ba0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="barra" id="nav-barra">
+        <ul>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#datos-personales">Datos personales</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <h1 class="titulo"> Curriculum Vitae</h1>
+    <div class="portada">
+        <img id="portada" src="graphic-design-studio-1563080_960_720.jpg" alt="">
+        <div id="foto"></div>
+    </div>
+    <div class="seccion" id="sobre-mi">
+        <h2>Sobre mi</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipiscing elit vitae tellus vulputate nullam, felis metus vel torquent in fusce placerat himenaeos et. Dictumst donec hendrerit iaculis cursus leo sollicitudin velit tristique cubilia maecenas, suspendisse inceptos cum fermentum etiam rhoncus eget metus nam aliquet commodo, justo mollis massa nunc nostra vivamus morbi ultricies neque. Nam platea mollis commodo tortor laoreet vehicula hac faucibus felis, nullam himenaeos non tristique facilisi tincidunt class. Condimentum magna dictumst ante mattis euismod arcu diam vitae, aptent torquent parturient sodales commodo lacinia pellentesque mauris est, vel magnis sociosqu volutpat leo ad penatibus. Morbi dictumst interdum praesent sapien tempor mi non, potenti ridiculus erat vehicula in consequat, aenean laoreet cursus dis at justo. Molestie libero eleifend hendrerit auctor facilisis ligula phasellus, nisi sociosqu accumsan fringilla iaculis neque.
+        </p>
+    </div>
+    <div class="seccion" id="datos-personales">
+        <i class="fa-solid fa-address-card fa-flip fa-2x" style="--fa-animation-duration: 8s;"></i><h2 class="contacto">Datos personales</h2>
+        <table>
+            <tr>
+                <td class="tabla-denom">Nombre</td>
+                <td id="autor-fullname" class="tabla-persona"></td>
+            </tr>
+            <tr>
+                <td class="tabla-denom">Edad</td>
+                <td id="autor-age" class="tabla-persona"></td>
+            </tr>
+            <tr>
+                <td class="tabla-denom">Ciudad</td>
+                <td id="autor-city" class="tabla-persona"></td>
+            </tr>
+            <tr>
+                <td class="tabla-denom">Phone</td>
+                <td id="autor-phone" class="tabla-persona"></td>
+            </tr>
+            <tr>
+                <td class="tabla-denom">Email</td>
+                <td id="autor-email" class="tabla-persona"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="seccion-lista" id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li class="habilidades">Lorem ipsum dolor sit amet consectetur, adipiscing elit quis.</li>
+            <li class="habilidades">Vitae dapibus vulputate quis mollis semper, tellus lacus maecenas.</li>
+            <li class="habilidades">A iaculis feugiat nascetur, tempus convallis.</li>
+            <li class="habilidades">Nostra dictum vehicula enim nec, mattis mus.</li>
+            <li class="habilidades">Imperdiet non potenti quam egestas euismod, aenean bibendum torquent.</li>
+        </ul>
+    </div>
+   
+    <div class="seccion-lista" id="experiencia">
+        <h2>Experiencia y Proyectos</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur, adipiscing elit quis.</li>
+            <li>Vitae dapibus vulputate quis mollis semper, tellus lacus maecenas.</li>
+            <li>A iaculis feugiat nascetur, tempus convallis.</li>
+            <li>Nostra dictum vehicula enim nec, mattis mus.</li>
+            <li>Imperdiet non potenti quam egestas euismod, aenean bibendum torquent.</li>
+        </ul>
+    </div>
+    <div class="seccion" id="contacto">
+        <i class="fa-solid fa-message fa-bounce fa-2x"></i><h2 class="contacto">Contacto</h2>
+        <p>Por favor completa este formulario para ponerte en contacto</p>
+        <form action="">
+            <fieldset>
+                <label>Nombre</label><input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required/> <br>
+                <label>Apellido</label><input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required/> <br>
+                <label>Email</label><input type="email" id="email" name="email" placeholder="Ingrese su email" required/> <br>
+                <label>Dejá un mensaje</label><textarea id="mensaje" name="mensaje" rows="9" placeholder="Ingrese un comentario" required></textarea> <br>
+                <input type="submit" id="enviar" name="enviar" />
+            </fieldset>
+        </form>
+        
+    </div>
+    <footer>
+        <p>Copyright 2023 © Marino Leandro</p>
+        <a href="https://www.facebook.com" class="fa-brands fa-facebook fa-2xl"  target="_blank"></a>
+        <a href="https://www.instagram.com" class="fa-brands fa-instagram fa-2xl"  target="_blank"></a>
+        <a href="https://www.google.com" class="fa-brands fa-google fa-2xl"  target="_blank"></a>
+    </footer>
+    
+    <script src="ticmas.js"></script>
+</body>
+</html>
